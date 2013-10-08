@@ -1,5 +1,6 @@
 Ext.define("Demo.view.Employees", {
 	extend: "Ext.container.Container",
+	xtype: 'employeesview',
 	//html: "Hello, Emp!!",
 	items: [{
 		xtype: "grid",
