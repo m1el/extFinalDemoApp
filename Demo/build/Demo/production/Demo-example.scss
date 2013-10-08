@@ -2,8 +2,17 @@ $image-search-path: 'C:/Users/ihor.pavlenko/extFinalDemoApp/Demo/build/Demo/prod
 $theme-name:  'ext-theme-classic' !default;
 $include-demo-application: true;
 $include-demo-app-application: true;
+$include-demo-controller-empcontroller: true;
 $include-demo-controller-main: true;
+$include-demo-controller-orgcontroller: true;
+$include-demo-model-employee: true;
+$include-demo-model-orgunit: true;
+$include-demo-store-employees: true;
+$include-demo-store-orgunits: true;
+$include-demo-view-employeemanagement: true;
+$include-demo-view-employees: true;
 $include-demo-view-main: true;
+$include-demo-view-organizations: true;
 $include-demo-view-viewport: true;
 $include-ext-abstractcomponent: true;
 $include-ext-abstractmanager: true;

@@ -1,10 +1,10 @@
 Ext.define('Demo.view.Main', {
     extend: 'Ext.container.Container',
-    requires:[
+    requires: [
         'Ext.tab.Panel',
         'Ext.layout.container.Border'
     ],
-    
+
     xtype: 'app-main',
 
     layout: {
@@ -16,10 +16,10 @@ Ext.define('Demo.view.Main', {
         xtype: 'panel',
         title: 'west',
         width: 150
-    },{
+    }, {
         region: 'center',
         xtype: 'tabpanel',
-        items:[{
+        items: [{
             title: 'Center Tab 1'
         }]
     }]

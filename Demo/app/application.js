@@ -4,14 +4,14 @@ Ext.define('Demo.Application', {
     extend: 'Ext.app.Application',
 
     views: [
-        // TODO: add views here
+        // 'Main'
     ],
 
     controllers: [
-        // TODO: add controllers here
+        'EmpController', 'OrgController'
     ],
 
     stores: [
-        // TODO: add stores here
+        'OrgUnits', 'Employees'
     ]
 });

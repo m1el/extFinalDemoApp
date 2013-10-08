@@ -16,15 +16,20 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.GroupTabRenderer": [],
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.grid.TransformGrid": [],
+  "Demo.model.Employee": [],
   "Ext.ux.FieldReplicator": [],
+  "Demo.view.Employees": [],
   "Ext.ux.grid.filter.ListFilter": [],
   "Ext.ux.ajax.XmlSimlet": [],
   "Ext.ux.event.Driver": [],
   "Demo.controller.Main": [],
+  "Demo.view.Organizations": [],
+  "Demo.store.OrgUnits": [],
   "Ext.ux.dd.PanelFieldDragZone": [],
   "Ext.ux.DataView.DragSelector": [],
   "Ext.ux.grid.menu.ListMenu": [],
   "Ext.ux.GMapPanel": [],
+  "Demo.model.OrgUnit": [],
   "Ext.ux.form.MultiSelect": [
     "Ext.ux.Multiselect"
   ],
@@ -36,6 +41,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "Demo.view.Viewport": [],
   "Ext.ux.PreviewPlugin": [],
   "Ext.ux.DataView.Animated": [],
+  "Demo.store.Employees": [],
+  "Demo.view.EmployeeManagement": [],
   "Ext.ux.ajax.SimXhr": [],
   "Ext.ux.event.RecorderManager": [],
   "Ext.ux.ProgressBarPager": [],
@@ -44,12 +51,14 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.ux.StatusBar"
   ],
   "Ext.ux.ajax.Simlet": [],
+  "Demo.controller.OrgController": [],
   "Ext.ux.SlidingPager": [],
   "Ext.ux.TabReorderer": [],
   "Ext.ux.grid.filter.NumericFilter": [],
   "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.RowExpander": [],
   "Ext.ux.event.Recorder": [],
+  "Demo.controller.EmpController": [],
   "Ext.ux.event.Player": [],
   "Ext.ux.ajax.SimManager": [],
   "Ext.ux.grid.filter.BooleanFilter": [],
@@ -86,7 +95,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ext.ux.ajax.DataSimlet": [],
   "Ext.ux.grid.TransformGrid": [],
+  "Demo.model.Employee": [],
   "Ext.ux.FieldReplicator": [],
+  "Demo.view.Employees": [],
   "Ext.ux.grid.filter.ListFilter": [
     "gridfilter.list"
   ],
@@ -95,12 +106,15 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ext.ux.event.Driver": [],
   "Demo.controller.Main": [],
+  "Demo.view.Organizations": [],
+  "Demo.store.OrgUnits": [],
   "Ext.ux.dd.PanelFieldDragZone": [],
   "Ext.ux.DataView.DragSelector": [],
   "Ext.ux.grid.menu.ListMenu": [],
   "Ext.ux.GMapPanel": [
     "widget.gmappanel"
   ],
+  "Demo.model.OrgUnit": [],
   "Ext.ux.form.MultiSelect": [
     "widget.multiselect",
     "widget.multiselectfield"
@@ -121,6 +135,8 @@ Ext.ClassManager.addNameAliasMappings({
     "plugin.preview"
   ],
   "Ext.ux.DataView.Animated": [],
+  "Demo.store.Employees": [],
+  "Demo.view.EmployeeManagement": [],
   "Ext.ux.ajax.SimXhr": [],
   "Ext.ux.event.RecorderManager": [
     "widget.eventrecordermanager"
@@ -135,6 +151,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.ajax.Simlet": [
     "simlet.basic"
   ],
+  "Demo.controller.OrgController": [],
   "Ext.ux.SlidingPager": [],
   "Ext.ux.TabReorderer": [],
   "Ext.ux.grid.filter.NumericFilter": [
@@ -143,6 +160,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.grid.menu.RangeMenu": [],
   "Ext.ux.RowExpander": [],
   "Ext.ux.event.Recorder": [],
+  "Demo.controller.EmpController": [],
   "Ext.ux.event.Player": [],
   "Ext.ux.ajax.SimManager": [],
   "Ext.ux.grid.filter.BooleanFilter": [
